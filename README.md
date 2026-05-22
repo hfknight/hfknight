@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="animated.svg" width="900" alt="hfknight - I do the work of 4 people" />
+</p>
+
 ## I'm humble enough to know I'm replaceable at work.
 *But I'm confident enough to know that it would take 4 people.*
 

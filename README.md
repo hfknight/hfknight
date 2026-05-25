@@ -9,7 +9,7 @@
 
 ![Static Badge](https://img.shields.io/badge/claude-90%25-%23D97757?logo=claude&logoColor=%23D97757&label=Claude%20Code) ![Static Badge](https://img.shields.io/badge/googlegemini-60%25-%238E75B2?logo=googlegemini&logoColor=%238E75B2&label=Gemini)
 
-***Personal projects***
-- [videogamers.fyi](https://videogamers.fyi)
-- [fanmatchday.com](fanmatchday.com)
-- [Obsidian Plugin: X Bookmarks Sync](https://community.obsidian.md/plugins/x-bookmarks-sync)
+*Personal projects*
+- :video_game: [videogamers.fyi](https://videogamers.fyi)
+- :stadium: [fanmatchday.com](fanmatchday.com)
+- :electric_plug: [Obsidian Plugin: X Bookmarks Sync](https://community.obsidian.md/plugins/x-bookmarks-sync)

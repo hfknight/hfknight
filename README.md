@@ -11,5 +11,5 @@
 
 *Personal projects*
 - :video_game: [videogamers.fyi](https://videogamers.fyi)
-- :stadium: [fanmatchday.com](fanmatchday.com)
+- :stadium: [fanmatchday.com](https://fanmatchday.com)
 - :electric_plug: [Obsidian Plugin: X Bookmarks Sync](https://community.obsidian.md/plugins/x-bookmarks-sync)

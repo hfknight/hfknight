@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <style>
+      /* Fallback to system sans-serif which looks extremely clean in minimalist grid layouts */
+      .font-main { font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
+      
+      .bg { fill: #F4F1EA; } /* Retro paper off-white */
+      .ink { fill: #1A1A1A; } /* Off-black */
+      .accent-orange { fill: #E05D3A; }
+      .accent-blue { fill: #306470; }
+      .accent-yellow { fill: #EAB44D; }
+      
+      .line { stroke: #1A1A1A; stroke-width: 2; }
+      
+      .title { font-size: 38px; font-weight: 800; letter-spacing: -1px; }
+      .subtitle { font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+      .bio { font-size: 15px; font-weight: 500; line-height: 1.5; }
+      .bio-highlight { font-weight: 700; fill: #E05D3A; }
+      .label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; fill: #1A1A1A; opacity: 0.5; }
+      .project { font-size: 14px; font-weight: 700; fill: #1A1A1A; }
+      
+      .spin { transform-origin: center; }
+      .blink { animation: blink 2s steps(2, start) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+    
+    <!-- Subtle Dot Grid Background Pattern -->
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#1A1A1A" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#dotGrid)" />
+
+  <!-- Outer Frame -->
+  <rect x="20" y="20" width="760" height="360" fill="none" class="line" />
+
+  <!-- Horizontal Grid Lines -->
+  <line x1="20" y1="110" x2="780" y2="110" class="line" />
+  <line x1="20" y1="340" x2="780" y2="340" class="line" />
+
+  <!-- Vertical Grid Lines -->
+  <line x1="340" y1="110" x2="340" y2="340" class="line" />
+  <line x1="600" y1="110" x2="600" y2="340" class="line" />
+
+  <!-- HEADER SECTION -->
+  <g class="font-main ink" transform="translate(45, 75)">
+    <text class="title">FEI / HFKNIGHT</text>
+  </g>
+  
+  <text x="365" y="75" class="font-main label">LOC // DALLAS, TX</text>
+  
+  <!-- Pill Badge -->
+  <g transform="translate(540, 45)">
+    <rect x="0" y="0" width="220" height="40" rx="20" fill="none" class="line" />
+    <circle cx="20" cy="20" r="6" class="accent-orange blink" />
+    <text x="38" y="25" class="font-main subtitle ink">CONTENT PILOT</text>
+  </g>
+
+  <!-- COLUMN 1: BIO -->
+  <g class="font-main ink" transform="translate(45, 145)">
+    <text class="label">01 // PROFILE_DATA</text>
+    
+    <!-- Geometric Art Decoration -->
+    <path d="M 0 25 L 30 25 L 30 55 Z" class="accent-yellow" />
+    <circle cx="50" cy="40" r="15" class="accent-blue" />
+    
+    <text x="0" y="95" class="bio">> I do the work of <tspan class="bio-highlight">4 people</tspan>.</text>
+    <text x="0" y="125" class="bio">> I'm humble enough to know</text>
+    <text x="0" y="145" class="bio">  I'm replaceable at work.</text>
+    <text x="0" y="175" class="bio">> But I'm confident enough to know</text>
+    <text x="0" y="195" class="bio">  that it would take <tspan class="bio-highlight">4 people</tspan>.</text>
+  </g>
+
+  <!-- COLUMN 2: REPOSITORIES -->
+  <g class="font-main ink" transform="translate(365, 145)">
+    <text class="label">02 // ACTIVE_MODULES</text>
+    
+    <g transform="translate(0, 35)">
+      <circle cx="5" cy="-5" r="4" class="accent-blue" />
+      <text x="18" y="0" class="project">x-bookmarks-sync</text>
+      
+      <circle cx="5" cy="45" r="4" class="accent-blue" />
+      <text x="18" y="50" class="project">claude-gemini-orchestration</text>
+      
+      <circle cx="5" cy="95" r="4" class="accent-blue" />
+      <text x="18" y="100" class="project">ghostty-config</text>
+    </g>
+  </g>
+
+  <!-- COLUMN 3: DOMAINS -->
+  <g class="font-main ink" transform="translate(625, 145)">
+    <text class="label">03 // DOMAINS</text>
+    
+    <g transform="translate(0, 35)">
+      <rect x="1" y="-12" width="8" height="8" class="accent-orange" />
+      <text x="18" y="0" class="project">videogamers.fyi</text>
+      
+      <rect x="1" y="38" width="8" height="8" class="accent-orange" />
+      <text x="18" y="50" class="project">fanmatchday.com</text>
+      
+      <rect x="1" y="88" width="8" height="8" class="accent-orange" />
+      <text x="18" y="100" class="project">fei.io</text>
+    </g>
+  </g>
+  
+  <!-- Rotating Geometric Asterisk (Bottom Right) -->
+  <g transform="translate(720, 280)">
+    <g class="spin">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+      <line x1="-18" y1="0" x2="18" y2="0" class="line" stroke-width="3"/>
+      <line x1="0" y1="-18" x2="0" y2="18" class="line" stroke-width="3"/>
+      <line x1="-12.7" y1="-12.7" x2="12.7" y2="12.7" class="line" stroke-width="3"/>
+      <line x1="-12.7" y1="12.7" x2="12.7" y2="-12.7" class="line" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- FOOTER TICKER SECTION -->
+  <clipPath id="tickerClip">
+    <rect x="20" y="340" width="760" height="40" />
+  </clipPath>
+  <g clip-path="url(#tickerClip)">
+    <text x="0" y="365" class="font-mono label" fill="#1A1A1A">
+      SYSTEM STATUS: ONLINE_ /// ALL SYSTEMS NOMINAL /// SYNC COMPLETE /// SYSTEM STATUS: ONLINE_ /// ALL SYSTEMS NOMINAL /// SYNC COMPLETE /// SYSTEM STATUS: ONLINE_ /// ALL SYSTEMS NOMINAL /// SYNC COMPLETE ///
+      <!-- Endless scrolling animation -->
+      <animate attributeName="x" from="30" to="-720" dur="18s" repeatCount="indefinite" />
+    </text>
+  </g>
+</svg>

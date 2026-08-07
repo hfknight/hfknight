@@ -48,16 +48,16 @@
 
   <!-- HEADER SECTION -->
   <g class="font-main ink" transform="translate(45, 75)">
-    <text class="title">FEI / HFKNIGHT</text>
+    <text class="title">FEI</text>
   </g>
   
   <text x="365" y="75" class="font-main label">LOC // DALLAS, TX</text>
   
   <!-- Pill Badge -->
-  <g transform="translate(540, 45)">
-    <rect x="0" y="0" width="220" height="40" rx="20" fill="none" class="line" />
+  <g transform="translate(520, 45)">
+    <rect x="0" y="0" width="240" height="40" rx="20" fill="none" class="line" />
     <circle cx="20" cy="20" r="6" class="accent-orange blink" />
-    <text x="38" y="25" class="font-main subtitle ink">CONTENT PILOT</text>
+    <text x="38" y="25" class="font-main subtitle ink">FULL STACK ENGINEER</text>
   </g>
 
   <!-- COLUMN 1: BIO -->
@@ -68,16 +68,15 @@
     <path d="M 0 25 L 30 25 L 30 55 Z" class="accent-yellow" />
     <circle cx="50" cy="40" r="15" class="accent-blue" />
     
-    <text x="0" y="95" class="bio">> I do the work of <tspan class="bio-highlight">4 people</tspan>.</text>
-    <text x="0" y="125" class="bio">> I'm humble enough to know</text>
-    <text x="0" y="145" class="bio">  I'm replaceable at work.</text>
-    <text x="0" y="175" class="bio">> But I'm confident enough to know</text>
-    <text x="0" y="195" class="bio">  that it would take <tspan class="bio-highlight">4 people</tspan>.</text>
+    <text x="0" y="95" class="bio">> I'm humble enough to know</text>
+    <text x="0" y="115" class="bio">  I'm replaceable at work.</text>
+    <text x="0" y="145" class="bio">> But I'm confident enough to know</text>
+    <text x="0" y="165" class="bio">  that it would take <tspan class="bio-highlight">4 people</tspan>.</text>
   </g>
 
-  <!-- COLUMN 2: REPOSITORIES -->
+  <!-- COLUMN 2: TECH STACK -->
   <g class="font-main ink" transform="translate(365, 145)">
-    <text class="label">02 // ACTIVE_MODULES</text>
+    <text class="label">02 // TECH_STACK</text>
     
     <g transform="translate(0, 35)">
       <circle cx="5" cy="-5" r="4" class="accent-blue" />

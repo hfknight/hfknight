@@ -13,8 +13,3 @@
 ![](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=vsc&logoColor=white) ![](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&&logo=notepad%2b%2b&logoColor=black) ![](https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&&logo=obsidian&logoColor=white)
 
 ![Static Badge](https://img.shields.io/badge/claude-90%25-%23D97757?style=for-the-badge&logo=claude&logoColor=%23D97757&label=Claude%20Code) ![Static Badge](https://img.shields.io/badge/googlegemini-60%25-%238E75B2?style=for-the-badge&logo=googlegemini&logoColor=%238E75B2&label=Gemini)
-
-*Personal projects*
-- :video_game: [videogamers.fyi](https://videogamers.fyi)
-- :stadium: [fanmatchday.com](https://fanmatchday.com)
-- :electric_plug: [Obsidian Plugin: X Bookmarks Sync](https://community.obsidian.md/plugins/x-bookmarks-sync)
